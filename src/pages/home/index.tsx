@@ -1,12 +1,12 @@
 import Presentation from "./presentation";
-import devExp from "./devExp";
+import DevExp from "./devexp";
 
 export const Home = () =>{
 
     return(
         <> 
             <Presentation/>
-            <devExp/>
+            <DevExp/>
         </>
     )
 }

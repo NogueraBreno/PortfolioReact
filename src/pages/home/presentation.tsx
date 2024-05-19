@@ -20,57 +20,57 @@ export const Presentation = () => {
                         <SkillCarousel id="skillsCarousel" className="carousel slide slides-shadow slide-shadow-p" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <CarouselItem className="carousel-item active">
-                                <img src="#" class="d-block w-50 p-3" alt="JavaScript" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/js.png'} className="d-block w-50 p-3" alt="JavaScript" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                                 <CarouselItem className="carousel-item">
-                                <img src="#" class="d-block w-50 p-3" alt="HTML5" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/html5.png'} className="d-block w-50 p-3" alt="HTML5" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                                 <CarouselItem className="carousel-item">
-                                <img src="#" class="d-block w-50 p-3" alt="CSS3" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/css3.png'} className="d-block w-50 p-3" alt="CSS3" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                                 <CarouselItem className="carousel-item">
-                                <img src="#" class="d-block w-50 p-3" alt="SQL" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/sql.png'} className="d-block w-50 p-3" alt="SQL" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                                 <CarouselItem className="carousel-item">
-                                <img src="#" class="d-block w-50 p-3" alt="PL/SQL" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/plsql.png'} className="d-block w-50 p-3" alt="PL/SQL" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                                 <CarouselItem className="carousel-item">
-                                <img src="#" class="d-block w-50 p-3" alt="C#" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/csharp.png'} className="d-block w-50 p-3" alt="C#" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                                 <CarouselItem className="carousel-item">
-                                <img src="#" class="d-block w-50 p-3" alt="Python" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/python.png'} className="d-block w-50 p-3" alt="Python" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                                 <CarouselItem className="carousel-item">
-                                <img src="#" class="d-block w-50 p-3" alt="Ruby" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/ruby.png'} className="d-block w-50 p-3" alt="Ruby" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                                 <CarouselItem className="carousel-item">
-                                <img src="#" class="d-block w-50 p-3" alt="Ruby on Rails" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/ruby.png'} className="d-block w-50 p-3" alt="Ruby on Rails" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                                 <CarouselItem className="carousel-item">
-                                <img src="#" class="d-block w-50 p-3" alt="React" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/js.png'} className="d-block w-50 p-3" alt="React" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                                 <CarouselItem className="carousel-item">
-                                <img src="#" class="d-block w-50 p-3" alt="TypeScript" />
-				                <img src="#" class="d-block w-50" alt="Proeficiencia"/>
+                                <img src={process.env.PUBLIC_URL + '/js.png'} className="d-block w-50 p-3" alt="TypeScript" />
+				                <img src="#" className="d-block w-50" alt="Proeficiencia"/>
                                 </CarouselItem>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#skillsCarousel" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Anterior</span>
+                            <button className="carousel-control-prev" type="button" data-bs-target="#skillsCarousel" data-bs-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Anterior</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#skillsCarousel" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Próximo</span>
+                            <button className="carousel-control-next" type="button" data-bs-target="#skillsCarousel" data-bs-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="visually-hidden">Próximo</span>
                             </button>
                         </SkillCarousel>
                     </div>
